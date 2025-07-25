@@ -22,7 +22,7 @@ jobs:
           cd /home/ubuntu/dev-ops-tarc/back-end-url-shortener
           echo "${{ secrets.ENV_PROD_VARS_BACK }}" > .env
 
-          cd /home/ec2-user/projeto/front-end-url-shortener
+          cd /home/ubuntu/dev-ops-tarc/front-end-url-shortener
           echo "${{ secrets.ENV_PROD_VARS_FRONT }}" > .env
 
           cd /home/ubuntu/dev-ops-tarc
