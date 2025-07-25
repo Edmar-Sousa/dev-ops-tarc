@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+
+  --blue-color: #0b0d46;
+  --orange-color: #df8766;
+  --white-color: #fff;
+  --shape-color: #ffffffa8;
+}
+
+#app {
+  width: 100vw;
+  min-height: 100vh;
+
+  background: var(--blue-color);
+}
+
+@media (min-width: 425px) {
+  :root,
+  html {
+    font-size: 20px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  :root,
+  html {
+    font-size: 25px;
+  }
+}

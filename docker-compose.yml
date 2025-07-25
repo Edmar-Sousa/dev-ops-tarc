@@ -1,0 +1,13 @@
+services:
+  api:
+    build: ./back-end-url-shortener
+    ports:
+      - "3000:3000"
+  
+  frontend:
+    build: ./front-end-url-shortener
+    ports:
+      - "80:80"
+    
+    depends_on:
+      - api
