@@ -6,7 +6,7 @@
     </h2>
 
     <p class="description">
-      Crie links curtos poderosos e reconhecíveis!
+      Crie links curtos poderosos e reconhecíveis?
     </p>
 
     <div class="input--container">
