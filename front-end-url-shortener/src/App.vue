@@ -6,7 +6,7 @@
     </h2>
 
     <p class="description">
-      Crie links curtos poderosos e reconhecíveis?
+      Crie links curtos poderosos e reconhecíveis DevOps
     </p>
 
     <div class="input--container">
